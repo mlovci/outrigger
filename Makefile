@@ -67,7 +67,10 @@ dist: clean
 	python setup.py bdist_wheel
 	ls -l dist
 
-install: clean
+environment:
+	-conda env create -f environment.yml
+
+install: environment clean
 	python setup.py install
 
 N_JOBS = -1
