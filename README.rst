@@ -46,6 +46,19 @@ Features
 Installation
 ============
 
+Quick install
+-------------
+
+(requires anaconda)
+
+::
+
+    make install
+
+
+Manual Install
+--------------
+
 To install ``outrigger``, we recommend using the `Anaconda Python
 Distribution <http://anaconda.org/>`__ and creating an environment.
 
